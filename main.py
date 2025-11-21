@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 from game import HigherLowerGame
 from game2 import CambioGame
 
@@ -21,14 +20,4 @@ def main():
         game.start()
 
 if __name__ == "__main__":
-=======
-from game import HigherLowerGame
-
-def main():
-    print("Starting the Higher or Lower Game...")
-    game = HigherLowerGame()
-    game.start()
-
-if __name__ == "__main__":
->>>>>>> 703d7c5078ccd9996ea0f0b2587632953050e75a
     main()
