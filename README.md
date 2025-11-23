@@ -53,10 +53,10 @@ This project contains two simple CLI card games built in Python using object-ori
 - Jokers are included as an optional deck feature to show how extra card types can be introduced and handled by new game variations.
 
 ### How to Run
-1. Ensure you have Python 3 installed
-2. Close the repository
-3. Run the desired game from the command line:
-4. Follow the on-screen prompts to play
+**1.** Ensure you have Python 3 installed
+**2.** Close the repository
+**3.** Run the desired game from the command line:
+**4.** Follow the on-screen prompts to play
 
 ### Future Improvements
 - **Assign a Purpose to Jokers:** Currently, jokers are optional and do not affect gameplay. Future versions could give them special roles or abilities to add strategic depth.
