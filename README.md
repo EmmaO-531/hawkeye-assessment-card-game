@@ -60,7 +60,7 @@ This project contains two simple CLI card games built in Python using object-ori
 ### How to Run
 1. Ensure you have Python 3 installed
 2. Close the repository
-3. Run the desired game from the command line:
+3. Run main.py
 4. Follow the on-screen prompts to play
 
 ### Future Improvements
