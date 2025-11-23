@@ -27,6 +27,15 @@ class Card:
     }
    
     def __init__(self, suit, rank):
+
+        # Allow Joker cards
+        if suit == "Joker":
+            self.suit = suit
+            self.rank = rank
+            self.value = 0
+            return
+
+
         # Input validation prevents illegal cards entering the deck
         if suit not in Card.SUITS:
             raise ValueError(f"Invalid suit: {suit}")

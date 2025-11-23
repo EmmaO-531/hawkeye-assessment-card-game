@@ -11,7 +11,7 @@ Design Notes:
 """
 
 class HigherLowerGame:
-    def __init__(self, include_jokers=True):
+    def __init__(self, include_jokers=False):
         # Deck created independently so future games can use different rules or settings
         self.deck = Deck(include_jokers=include_jokers)
         self.deck.shuffle()

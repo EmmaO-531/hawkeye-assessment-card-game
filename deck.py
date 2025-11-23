@@ -17,7 +17,7 @@ Design Notes:
 """
 
 class Deck:
-    def __init__(self, include_jokers=True):
+    def __init__(self, include_jokers=False):
         self.cards = []  # Holds Card objects
         self.build_deck(include_jokers)
 
