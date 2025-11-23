@@ -14,6 +14,7 @@ This project contains two simple CLI card games built in Python using object-ori
 - **Step 4:** The user can continue playing until all cards have been shown, at which point the game ends and a final score is revealed  
   - The user may also quit at any time and receive their final score  
 - Jokers can be added to the deck, but they currently do not serve a purpose
+
 ![Higher/Lower Gameplay](images/higher_lower.png) 
 
 ### Extension: Game 2 — Cambio
@@ -27,8 +28,8 @@ This project contains two simple CLI card games built in Python using object-ori
 - **Step 2:** The user sees their cards, and the computer identifies the user's highest-value card  
 - **Step 3:** The computer asks the user whether they want to randomly swap out their highest-value card, and performs the swap if requested  
 - **Step 4:** The computer reveals the total value of the user’s cards and its own, then announces the winner 
-![Cambio Gameplay](images/cambio.png)
 
+![Cambio Gameplay](images/cambio.png)
 
 
 ### Design Decisions
