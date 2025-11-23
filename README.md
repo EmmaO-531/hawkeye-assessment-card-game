@@ -50,5 +50,10 @@ This project contains two simple CLI card games built in Python using object-ori
 - This also keeps the project simple and accessible, while still leaving room for optional extensions like a GUI.
 
 #### Extensibility
-- The project is structured so additional rules or entire new games can be added with minimal changes.
 - Jokers are included as an optional deck feature to show how extra card types can be introduced and handled by new game variations.
+
+### Future Improvements
+- **Assign a Purpose to Jokers:** Currently, jokers are optional and do not affect gameplay. Future versions could give them special roles or abilities to add strategic depth.
+- **GUI Enhancements:** Introduce a graphical interface for both games, with buttons, animations, colours, and sound effects, making the games more interactive and visually engaging.
+- **Expanded Cambio Rules:** Implement additional rules for Cambio, such as multiple rounds, special card effects, and more strategic gameplay, reflecting the actual card game.
+- **Testing Framework:** Add automated tests for the Card, Deck, and game classes to ensure correctness and make future modifications easier.
