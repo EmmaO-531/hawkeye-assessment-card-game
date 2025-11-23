@@ -27,4 +27,28 @@ This project contains two simple CLI card games built in Python using object-ori
 - **Step 3:** The computer asks the user whether they want to randomly swap out their highest-value card, and performs the swap if requested  
 - **Step 4:** The computer reveals the total value of the user’s cards and its own, then announces the winner  
 
-### Design Decision
+### Design Decisions
+#### Object-Oriented Structure
+- I used an object-oriented approach to keep the project modular and easy to extend.
+- The Card and Deck classes provide a shared foundation for both games, allowing each game to apply its own rules without duplicating card logic.
+- This structure also makes it easier to add new games or variations in the future, since they can all reuse the same deck and card management code.
+
+#### Card Representation
+- Cards are represented using their suit and rank, with each Card object storing this information along with a numerical value.
+- Using __str__ and __repr__ ensures that cards display cleanly in the CLI, which improves usability during gameplay and debugging.
+
+#### Deck Behaviour
+- The Deck class handles deck construction, optional jokers, shuffling, and drawing cards.
+- Keeping these functions inside the deck makes the game logic simpler, since each game only needs to request cards rather than worrying about how they are stored or randomised.
+
+#### Game Logic Separation
+- Higher/Lower and Cambio each live in their own game classes so their rules stay separated.
+- This avoids mixing scoring rules or gameplay flow between the two games, while still sharing the same underlying card and deck structure.
+
+#### CLI-Based Interaction
+- I chose a CLI interface to keep the focus on game logic, card modelling, and program structure rather than UI design.
+- This also keeps the project simple and accessible, while still leaving room for optional extensions like a GUI.
+
+#### Extensibility
+- The project is structured so additional rules or entire new games can be added with minimal changes.
+- Jokers are included as an optional deck feature to show how extra card types can be introduced and handled by new game variations.
